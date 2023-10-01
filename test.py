@@ -1,13 +1,11 @@
-numbers = []
-
-for n in range(1, 6):
-    numbers.append(n**2)
-
-
-print(numbers)
-
-print("this is an addition")
-
-I msde this changes now
-
-this this this
+class a:
+    def __init__(self,name,sal):
+        self.name=name
+        self.sal=sal
+    
+    def display(self):
+        print("the attributes are",self.name,"and",self.sal)
+0
+obj=a('tanmay',1000)
+print(obj.__dict__)
+obj.display()
